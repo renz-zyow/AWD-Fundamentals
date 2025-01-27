@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Demo</title>
+	<link rel="stylesheet" href="../page1/assets/css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar">
+        <img src="/pages/page1/assets/img/logo.png" class="logo" alt="logo">
+        <ul>
+            <li><a href="/index.html"><i></i>Home</a></li>
+        </ul> 
+    </div>
+</div>
+    <div class="main_content">
+        <div class="header"><b>JavaScript Fundamentals</b></div>  
+        <div class="container">
+        <div class="info">
+            <h1><br>JavaScript Fundamentals Demo</h1>
+
+            <h2>Check if a Car is Electric</h2>
+            <input type="text" id="carTypeInput" placeholder="Enter car type (e.g., Tesla, Ford)">
+            <button onclick="checkElectric()">Check Electric</button>
+            <div class="result" id="electricResult"></div>
+        
+            <h2>Count Total Cars</h2>
+            <input type="text" id="carListInput" placeholder="Enter car models separated by commas">
+            <button onclick="countCars()">Count Cars</button>
+            <div class="result" id="carCountResult"></div>
+        
+            <h2>Store and Display Car Details</h2>
+            <input type="text" id="carModelInput" placeholder="Enter car model">
+            <input type="number" id="carYearInput" placeholder="Enter car year">
+            <button onclick="storeCarDetails()">Store Details</button>
+            <div class="result" id="carDetailsResult"></div>
+      </div>
+    </div>
+    </div>
+    <script src="../page1/assets/js/scripts.js"></script>
+
+
+</body>
+</html>
